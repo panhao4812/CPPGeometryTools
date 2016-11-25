@@ -1,0 +1,18 @@
+# CPPGeometryTools
+wrapped OpenNurbs class for CAA
+
+在CAA里面一般的层级就是
+WorkSpace-FrameWork-Modue-Class
+只有FrameWork这一级才能独立拷贝出来运用。单独的自写类库可以是以Framework形式存在的。调用起来和调用Catia自身CATXXXX一类的库是完全一样的。
+
+如果做出一个独立的Framework，用到当前的项目里面的方式如下
+1 把整个Framework拷贝到当前的WorkSpace
+2 在标题栏点击 Project-->Refresh whole solution XXXXX 刷新一下
+3 点击标题栏 CAA V5 WorkSpace-Define Prerequestie XXX 加载这个WorkSpace
+一般选Public或者Private加载，也可以直接改写当前的Framework的IdentityCard
+4 在当前的module修改Imakefile来添加需要引用的modue 
+例如我引用了我写的CPPGeometry这个Framework中的CPPOpenNurbs.m这个modue
+makefile里面就需要加CPPOpenNurbs \
+5 在当前的头文件里面添加引用的头文件 #include XXX
+
+这个包就是个Framework 目前是B22的rade版本
