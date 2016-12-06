@@ -1,5 +1,0 @@
-/I"D:\catiav5_r22\TestSpace2\.\CPPGeometryTools\CPPOpenNurbs.m\src"
-/I"D:\catiav5_r22\TestSpace2\.\CPPGeometryTools\CPPOpenNurbs.m\LocalInterfaces"
-/I"D:\catiav5_r22\TestSpace2\.\CPPGeometryTools\CPPOpenNurbs.m\LocalGenerated\win_b64"
-/I"D:\catiav5_r22\TestSpace2\.\CPPGeometryTools\PublicInterfaces"
-/I"D:\catiav5_r22\TestSpace2\.\CPPGeometryTools\ImportedInterfaces\win_b64"

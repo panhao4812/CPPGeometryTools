@@ -88,7 +88,6 @@ boolean CAASel::func1(void *iData)
 			if(NULL!=pView){pView->Release();pView=NULL;}
 			//*/
 			//******************************************************************
-
 		} 	
 		nodes =ON_Polyline::RemoveDupPts(nodes,0.001);
 		if(nodes.size()>3){
